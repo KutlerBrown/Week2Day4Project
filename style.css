@@ -1,0 +1,39 @@
+html, body, h1, label, input{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-box{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 15% 40% 15% 40%;
+    border-radius: 5px;
+}
+h1 {
+    margin: 20px 0px;
+}
+label {
+    margin-left: 10px;
+    margin-bottom:20px;
+}
+input[type=text] {
+    border: black 1px solid;
+    margin-bottom: 10px;
+    padding: 3px 0px 3px 5px;
+}
+input[type=email] {
+    border: black 1px solid;
+    padding: 3px 0px 3px 5px;
+}
+input[type=submit]{
+    border: black 1px solid;
+    width: 270px;
+    margin: 30px 6px;
+    background-color: white;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: #EEEEEE
+}
